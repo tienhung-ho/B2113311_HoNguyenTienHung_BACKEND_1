@@ -1,28 +1,28 @@
 
 module.exports.create = (req, res) => {
-    res.send({ mesage: 'Create handler'})
+    res.send({ message: 'Create handler'})
 }
 
 module.exports.findAll = (req, res) => {
-    res.send({ mesage: 'find all handler'})
+    res.send({ message: 'find all handler'})
 }
 
 module.exports.findOne = (req, res) => {
-    res.send({ mesage: 'find One handler'})
+    res.send({ message: 'find One handler'})
 }
 
 module.exports.update = (req, res) => {
-    res.send({ mesage: 'update handler'})
+    res.send({ message: 'update handler'})
 }
 
 module.exports.delete = (req, res) => {
-    res.send({ mesage: 'delete handler'})
+    res.send({ message: 'delete handler'})
 }
 
 module.exports.deleteAll = (req, res) => {
-    res.send({ mesage: 'deleteAll handler'})
+    res.send({ message: 'deleteAll handler'})
 }
 
 module.exports.findAllFavorite = (req, res) => {
-    res.send({ mesage: 'findAllFavorite handler'})
+    res.send({ message: 'findAllFavorite handler'})
 }
